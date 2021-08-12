@@ -1,0 +1,35 @@
+.expense-item{
+  box-sizing: border-box;
+  box-shadow: 0 1px 5px 0 rgba(31, 31, 31, 0.39);
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-size: 25px;
+}
+
+.expense-item .btn{
+  padding: .5rem;
+  font-size: 25px;
+  width: min-content;
+  justify-self: center;
+  background-color: rgba(167, 40, 252, 0.925);
+  color: white;
+  font-weight: 500;
+  border-radius: .65rem;
+  border: none;
+}
+
+.expense-item .btn:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: transparent;
+  color: rgba(167, 40, 252, 0.925);
+  border: 2px solid rgba(167, 40, 252, 0.925);
+  transition: .1s linear;
+  
+}
